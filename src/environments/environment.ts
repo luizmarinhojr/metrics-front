@@ -1,4 +1,4 @@
 export const environment = {
     production: true,
-    api: 'https://metrics-iyy6.onrender.com/api/v1/'
+    api: 'https://api.naster.com.br/api/v1/'
 };
