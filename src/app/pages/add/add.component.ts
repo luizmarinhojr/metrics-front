@@ -4,10 +4,11 @@ import { FormBuilder, FormGroup, ReactiveFormsModule, Validators } from '@angula
 import { MetricService } from '../../services/metric.service';
 import { Router } from '@angular/router';
 import { BrokerService } from '../../services/broker.service';
+import { HeaderComponent } from '../../components/header/header.component';
 
 @Component({
   selector: 'app-add',
-  imports: [ReactiveFormsModule],
+  imports: [ReactiveFormsModule, HeaderComponent],
   templateUrl: './add.component.html',
   styleUrl: './add.component.css'
 })

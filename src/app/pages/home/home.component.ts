@@ -3,10 +3,11 @@ import { HeaderHomeComponent } from '../../components/header-home/header-home.co
 import { TableComponent } from "../../components/table/table.component";
 import { MetricResponse } from '../../models/metric';
 import { MetricService } from '../../services/metric.service';
+import { HeaderComponent } from '../../components/header/header.component';
 
 @Component({
   selector: 'app-home',
-  imports: [HeaderHomeComponent, TableComponent],
+  imports: [HeaderHomeComponent, TableComponent, HeaderComponent],
   templateUrl: './home.component.html',
   styleUrl: './home.component.css'
 })
